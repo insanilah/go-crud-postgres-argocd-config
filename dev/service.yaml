@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-go-crud-postgres-argo-service
+spec:
+  selector:
+    app: myapp-go-crud-postgres-argo
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  
