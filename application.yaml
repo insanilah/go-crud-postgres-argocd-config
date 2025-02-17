@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/satriagitu/go-crud-postgres-argocd-config.git
+    repoURL: https://github.com/insanilah/go-crud-postgres-argocd-config.git
     targetRevision: HEAD
     path: dev
   destination: 
